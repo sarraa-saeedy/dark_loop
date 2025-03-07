@@ -12,6 +12,7 @@ body{
     align-items: center;
     letter-spacing: 1px;
     background-color: #0c1022;
+    user-select: none;
 }
 
 .login_form_container{
