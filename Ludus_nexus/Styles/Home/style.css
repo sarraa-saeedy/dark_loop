@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('C:\Users\LENOVO\Documents\GitHub\dark_loop\Ludus_nexus\Assets\Image');
     background-color: #1a1a1a;
     color: #ffffff;
     margin: 0;
@@ -14,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header span{
@@ -92,11 +94,11 @@ input[type=button]{
     border-radius: 40px;
     font-size: 25px;
     cursor: pointer;
-    background-color: rgba(244, 43, 200 , .4);
+    background-color: rgba(244, 43, 200 , .5);
     border: none;
     color: white;
 }
 
 section input:hover{
-    background: linear-gradient(to right,#3D155F, #800080, #836986);
+    background: linear-gradient(to right,#3D155F, #800080, #836986 );
 }
