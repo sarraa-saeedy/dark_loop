@@ -6,11 +6,19 @@ body {
     padding: 0;
     direction: rtl;
 }
-
+/* بخش سرصفحه */
 header {
     background-color:#000000;
     padding: 20px;
     text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header span{
+    text-align: left;
+    margin-left: 80px
 }
 
 nav ul {
@@ -33,14 +41,14 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
 }
-a {
+header a {
     text-decoration: underline;
     position: relative;
     font-size: 18px;
     color: #ffffff; /* رنگ متن لینک */
 }
 
-a::after {
+header a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -53,25 +61,42 @@ a::after {
     transition: transform 0.3s ease-in-out;
 }
 
-a:hover::after {
+header a:hover::after {
     transform: scaleX(1); /* حذف خط هنگام هاور */
 }
 
 /* section بخش  */
 
 .section-text{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-top: 150px;
     margin-right: 100px;
 }
 
 .section-text2{
-    font-size: 25px;
+    font-size: 35px;
     margin-right: 100px;
     color: #ad09ad;
 }
 
 .section-text3{
-    font-size: 20px;
+    font-size: 30px;
+}
+
+input[type=button]{
+    margin-right: 45%;
+    margin-top: 90px;
+    width: 150px;
+    padding: 7px;
+    border-radius: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(244, 43, 200 , .4);
+    border: none;
+    color: white;
+}
+
+section input:hover{
+    background: linear-gradient(to right,#3D155F, #800080, #836986);
 }
