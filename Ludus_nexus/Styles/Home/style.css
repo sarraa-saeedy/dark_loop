@@ -69,6 +69,14 @@ header a:hover::after {
 
 /* section بخش  */
 
+section{
+    width: 60%;
+}
+
+article{
+    width: 40%;
+}
+
 .section-text{
     font-size: 40px;
     font-weight: bold;
@@ -87,7 +95,7 @@ header a:hover::after {
 }
 
 input[type=button]{
-    margin-right: 45%;
+    margin-right: 70%;
     margin-top: 90px;
     width: 150px;
     padding: 7px;
@@ -101,4 +109,17 @@ input[type=button]{
 
 section input:hover{
     background: linear-gradient(to right,#3D155F, #800080, #836986 );
+}
+
+main{
+    display: flex;
+}
+
+article img{
+    width: 250px;
+    margin-top: 10%;
+}
+
+article{
+    text-align: center;
 }
