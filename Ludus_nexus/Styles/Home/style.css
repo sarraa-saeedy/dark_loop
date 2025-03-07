@@ -92,6 +92,7 @@ article{
 
 .section-text3{
     font-size: 30px;
+    margin-right: 400px;
 }
 
 input[type=button]{
@@ -121,5 +122,16 @@ article img{
 }
 
 article{
-    text-align: center;
-}
+    position:relative;
+    animation-name: free-learn;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+   }
+   @keyframes free-learn{
+    from {bottom:0;}
+    to   {top:300px;}
+  
+   }
+   .tas img{
+    animation-timing-function: linear;
+   }
