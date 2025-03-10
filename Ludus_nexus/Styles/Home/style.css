@@ -208,8 +208,9 @@ article img{
 
 .footer-container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-evenly;
+    height: 230px;
 }
 
 .footer-addres img{
@@ -218,7 +219,7 @@ article img{
 
 .footer-addres{
     border-left: 1px solid;
-    padding: 60px;
+    padding-left: 25px;
 }
 
 .pic-of-trust{
@@ -227,6 +228,10 @@ article img{
 
 .footer-middle ul{
     list-style-type: none;
+}
+
+li{
+    padding: 7px;
 }
 
 .footer-middle-call ul{
@@ -243,6 +248,11 @@ article img{
     width: 100px;
 }
 
-.footer-darkloop-logo{
-    width: 80%;
+.footer-darkloop-logo img{
+    width: 250px;
+}
+
+.footer-compony{
+    font-size: 20px;
+    text-align: center;
 }
