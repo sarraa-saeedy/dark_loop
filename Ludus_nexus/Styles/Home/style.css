@@ -7,9 +7,15 @@ body {
     padding: 0;
     direction: rtl;
 }
+
+.back{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}
+
 /* بخش سرصفحه */
 header {
-    background-color:#000000;
     padding: 20px;
     text-align: right;
     display: flex;
@@ -18,9 +24,10 @@ header {
     
 }
 
-header span{
+header img{
     text-align: left;
-    margin-left: 80px
+    margin-left: 99px;
+    width: 251px;
 }
 
 nav ul {
@@ -84,54 +91,41 @@ article{
     margin-right: 100px;
 }
 
-.section-text2{
-    font-size: 35px;
-    margin-right: 100px;
-    color: #ad09ad;
+section span{
+    font-size: 58px;
 }
 
-.section-text3{
-    font-size: 30px;
-    margin-right: 400px;
+.section-text{
+    text-align: center;
+    margin-top: 100px;
 }
 
 input[type=button]{
-    margin-right: 70%;
+    margin-right: 45%;
     margin-top: 90px;
-    width: 150px;
-    padding: 7px;
+    width: 172px;
+    padding: 15px;
     border-radius: 40px;
     font-size: 25px;
     cursor: pointer;
-    background-color: rgba(244, 43, 200 , .5);
+    background-color: #712BE9E5;
     border: none;
     color: white;
+    box-shadow: 4px 6px #360f79e5;
+    font-size: 30px;
 }
 
-section input:hover{
+/* section input:hover{
     background: linear-gradient(to right,#3D155F, #800080, #836986 );
-}
+} */
 
 main{
     display: flex;
 }
 
 article img{
-    width: 250px;
-    margin-top: 10%;
+    width: 290px;
+    margin-right: 180px;
+    margin-top: 0px;
 }
 
-article{
-    position:relative;
-    animation-name: free-learn;
-    animation-duration: 3s;
-    animation-iteration-count: 10;
-   }
-   @keyframes free-learn{
-    from {bottom:0;}
-    to   {top:300px;}
-  
-   }
-   .tas img{
-    animation-timing-function: linear;
-   }
