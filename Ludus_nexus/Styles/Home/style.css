@@ -206,9 +206,9 @@ article img{
 
 /* بخش فوتر */
 
-.footer-container{
+footer{
     display: flex;
-    /* align-items: center; */
+    font-size: 18px;
     justify-content: space-evenly;
     height: 230px;
 }
@@ -255,4 +255,13 @@ li{
 .footer-compony{
     font-size: 20px;
     text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#905ef4;
 }
