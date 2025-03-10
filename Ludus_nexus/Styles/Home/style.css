@@ -133,7 +133,7 @@ article img{
 }
 
 .strim h3{
-    background-color: #712BE9E5;
+    background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
     padding: 7px;
     margin: 25px;
     border-radius: 15px;
@@ -177,7 +177,7 @@ article img{
 /* بخش سوالهای متداول  */
 
 .question-part h3{
-    background-color: #712BE9E5;
+    background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
     padding: 7px;
     margin: 25px;
     border-radius: 15px;
@@ -194,7 +194,12 @@ article img{
     border-bottom: 3px solid;
     display: inline-block; /*چون بشه خط و تنظیم کرد*/
     width: 80%;
-    border-image: linear-gradient(to right, #0569FF, #7631FF) 1;
+    border-image: linear-gradient(to right, #0569FF, #7631FF , #6105FF) 1;
     font-size: 25px;
     padding: 10px;
+}
+
+.question-icon{
+    cursor: pointer;
+    display: inline-block;
 }
