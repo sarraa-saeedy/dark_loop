@@ -9,28 +9,29 @@ as well as create an online platform for the commuity of gamers and streamers,an
 و استریمرها و پوشش بروز ترین و معتبر ترین اخبار‌‌ و مقالات مرتبط بادنیای بازی و تجهیزات ان است
 </p>
 <h3>Features:</h3>
-<p>
-⭐An online chat platform for users.
-⭐Video upload platform for streamers
-⭐Selling and promoting new products with aspecial conditions.
-⭐find the closest GameNet to you
-⭐monthly lottery
-</p>
+<dl>
+<dt>⭐An online chat platform for users.</dt>
+<dt>⭐Video upload platform for streamers</dt>
+<dt>⭐Selling and promoting new products with aspecial conditions.</dt>
+<dt>⭐find the closest GameNet to you.</dt>
+<dt>⭐monthly lottery</dt>
+</dl>
 <h3> ویژگی ها:</h3>
-<p>
-⭐ایجاد یک پلتفرم چت انلاین برای کاربران
-⭐بستر‌آپلود ویدیو برای استریمر ها
-⭐فروش و تبلیغ محصولات جدید با شرایط خاص  
-⭐پیدا کردن نزدیک ترین گیم نت به شما    
-⭐قرعه کشی ماهانه   
-</p>
+<dl>
+
+<dt>⭐ایجاد یک پلتفرم چت انلاین برای کاربران </dt>
+<dt>⭐بستر‌آپلود ویدیو برای استریمر ها   </dt>
+<dt>⭐فروش و تبلیغ محصولات جدید با شرایط خاص  </dt>
+<dt>⭐پیدا کردن نزدیک ترین گیم نت به شما    <dt>
+<dt>⭐قرعه کشی ماهانه   </dt>
+</dl>
 <h3>Members:</h3>
-<p>
-Product manager:Sara Saeedi;
-UI/UX:Asal Yazdnia;
-Developers:Mohadeseh Samandari & Elnaz Zarkhani:
-Digital marketing:Masoumeh Bahrampour;
-</p>
+<dl>
+<dt>Product manager:Sara Saeedi;</dt>
+<dt>UI/UX:Asal Yazdnia;</dt>
+<dt>Developers:Mohadeseh Samandari & Elnaz Zarkhani;</dt>
+<dt>Digital marketing:Masoumeh Bahrampour;</dt>
+</dl>
 <p>website Addres:<a href="#">#</a></p>
 <p>Contact Us:<a href="#">#</a></p>
 Document:
