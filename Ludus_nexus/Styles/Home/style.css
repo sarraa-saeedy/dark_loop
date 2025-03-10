@@ -100,7 +100,7 @@ section span{
     margin-top: 100px;
 }
 
-input[type=button]{
+section input[type=button]{
     margin-right: 45%;
     margin-top: 90px;
     width: 172px;
@@ -109,9 +109,9 @@ input[type=button]{
     font-size: 25px;
     cursor: pointer;
     background-color: #712BE9E5;
+    box-shadow: 4px 6px #360f79e5;
     border: none;
     color: white;
-    box-shadow: 4px 6px #360f79e5;
     font-size: 30px;
 }
 
@@ -157,4 +157,20 @@ article img{
     margin: 20px;
     margin-right: 100px;
     cursor: pointer;
+}
+
+.strim-button{
+    margin-right: 45%;
+    margin-top: 90px;
+    width: 172px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 6px 5px #340d76e5;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 30px;
+    background-image: linear-gradient(#1100FF, #9000FF);
+    background-color: #712BE9E5; /* برای مرور گر هایی که گردینت اعمال نمی شود*/
 }
