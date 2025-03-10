@@ -66,6 +66,7 @@ body{
     padding: 50px 40px;
     z-index: 10;
     color: #00ccff;
+    user-select: none;
 } 
 
 h2{
