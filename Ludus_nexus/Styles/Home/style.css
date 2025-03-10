@@ -127,10 +127,10 @@ article img{
 
 /* بخش ویدیو استریم */
 
-
-.strim img{
-    z-index: -1;
-    width: 100%;
+.strim{
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: center;
 }
 
 .strim h2{
