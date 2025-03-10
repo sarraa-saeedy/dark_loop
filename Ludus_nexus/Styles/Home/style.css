@@ -203,3 +203,46 @@ article img{
     cursor: pointer;
     display: inline-block;
 }
+
+/* بخش فوتر */
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-addres img{
+    width: 50px;
+}
+
+.footer-addres{
+    border-left: 1px solid;
+    padding: 60px;
+}
+
+.pic-of-trust{
+    padding: 3px;
+}
+
+.footer-middle ul{
+    list-style-type: none;
+}
+
+.footer-middle-call ul{
+    list-style-type: none;
+}
+
+.footer-middle-call{
+    padding-left: 40px;
+    border-left: 1px solid;
+    display: inline-block;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.footer-darkloop-logo{
+    width: 80%;
+}
