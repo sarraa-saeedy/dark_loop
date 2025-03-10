@@ -14,6 +14,12 @@ body{
     background-color: #0c1022;
 }
 
+.Login-backgraund{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}
+
 .login_form_container{
     position: relative;
     width: 400px;
@@ -145,3 +151,4 @@ h2{
 .glowIcon {
     text-shadow: 0 0 10px #00ccff;
 }
+
