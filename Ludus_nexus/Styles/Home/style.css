@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('C:\Users\LENOVO\Documents\GitHub\dark_loop\Ludus_nexus\Assets\Image');
     background-color: #1a1a1a;
     color: #ffffff;
     margin: 0;
     padding: 0;
     direction: rtl;
-    user-select: none;
+    user-select: none; 
 }
 
 .back{
@@ -116,10 +115,6 @@ input[type=button]{
     font-size: 30px;
 }
 
-/* section input:hover{
-    background: linear-gradient(to right,#3D155F, #800080, #836986 );
-} */
-
 main{
     display: flex;
 }
@@ -130,3 +125,8 @@ article img{
     margin-top: 0px;
 }
 
+/* بخش ویدیو استریم */
+
+.strim h2{
+    background-color: #712BE9E5;
+}
