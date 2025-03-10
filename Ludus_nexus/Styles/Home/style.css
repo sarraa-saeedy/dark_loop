@@ -127,6 +127,34 @@ article img{
 
 /* بخش ویدیو استریم */
 
+
+.strim img{
+    z-index: -1;
+    width: 100%;
+}
+
 .strim h2{
     background-color: #712BE9E5;
+    padding: 7px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* استایل استریم ها */
+
+.strim-photo2{
+    margin: 30px;
+    background-color: #1500533D;
+    width: 80%;
+    font-size: 25px;
+}
+
+.strim-photo2 img{
+    width: 400px;
+    margin: 20px;
+    margin-right: 100px;
+    cursor: pointer;
 }
