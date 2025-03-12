@@ -17,7 +17,7 @@ as well as create an online platform for the commuity of gamers and streamers,an
 <dt>⭐monthly lottery</dt>
 </dl>
 <h3> ویژگی ها:</h3>
-<dl>
+<dl dir="rtl">
 
 <dt>⭐ایجاد یک پلتفرم چت انلاین برای کاربران </dt>
 <dt>⭐بستر‌آپلود ویدیو برای استریمر ها   </dt>
