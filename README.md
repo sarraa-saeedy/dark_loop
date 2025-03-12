@@ -4,7 +4,7 @@ this is for the gaming store
 <h3>About:</h3>
 <p>The Ludus Nexus stor aims to sell gaming  gear to professional
 as well as create an online platform for the commuity of gamers and streamers,and cover the most up-to-date and reliable news and articles related to the world of gamimg and its gear.</p>
-<p>فروش تجهیزات گیمینگ به حرفه ای <span>Ludus Nexus</span> هدف فروشگاه 
+<p>هدف فروشگاه<span>Ludus Nexus</span> فروش تجهیزات گیمینگ به حرفه ای و 
 مبتدیان‌ و همچنین ایجاد یک پلتفرم‌آنلاین برای جامعه گمیر ها 
 و استریمرها و پوشش بروز ترین و معتبر ترین اخبار‌‌ و مقالات مرتبط بادنیای بازی و تجهیزات ان است
 </p>
