@@ -116,6 +116,7 @@ body{
     margin: 50px;
     background-color: #1500533D;
     font-size: 25px;
+    border-radius: 25px;
 }
 
 .strim-photo2 img{
@@ -123,6 +124,7 @@ body{
     margin: 20px;
     margin-right: 100px;
     cursor: pointer;
+    border-radius: 25px;
 }
 
 .strim-button{
