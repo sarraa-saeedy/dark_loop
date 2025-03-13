@@ -2,6 +2,7 @@
 
 body{
     direction: rtl;
+    margin: 0px;
     color: white;
 }
 
@@ -9,6 +10,7 @@ body{
     position: fixed;
     z-index: -1;
     width: 100%;
+    margin: 0px;
 }
 
 .strim{
@@ -22,7 +24,7 @@ body{
     margin: 25px;
     border-radius: 15px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 30px;
 }
 
@@ -85,4 +87,66 @@ body{
 .question-icon{
     cursor: pointer;
     display: inline-block;
+}
+
+/* بخش فوتر */
+
+footer{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+    height: 230px;
+}
+
+.footer-addres img{
+    width: 50px;
+}
+
+.footer-addres{
+    border-left: 1px solid;
+    padding-left: 25px;
+}
+
+.pic-of-trust{
+    padding: 3px;
+}
+
+.footer-middle ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 7px;
+}
+
+.footer-middle-call ul{
+    list-style-type: none;
+}
+
+.footer-middle-call{
+    padding-left: 40px;
+    border-left: 1px solid;
+    display: inline-block;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.footer-darkloop-logo img{
+    width: 250px;
+}
+
+.footer-compony{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#905ef4;
 }
