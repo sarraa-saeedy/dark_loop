@@ -120,6 +120,7 @@ h2{
 }
 
 #login_button a{
+    color: white;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -146,6 +147,7 @@ h2{
     text-decoration: none;
     cursor: pointer;
     font-size: 18px;
+    color: white;
 }
 
 .glowIcon {

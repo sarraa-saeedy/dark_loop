@@ -59,7 +59,7 @@ header a:hover::after {
     transform: scaleX(1); /* حذف خط هنگام هاور */
 }
 .searchbox img{
-    width: 15px;
+    width: 30px;
     height: auto;
     position: absolute;
 }
@@ -67,7 +67,9 @@ header a:hover::after {
     position: relative;
 }
 .searchbox input{
-    padding-right: 20px;
+    padding-right: 30px;
+    color: white;
+    font-size: 15px;
 }
 .search-nav{
     display: flex;
@@ -93,7 +95,6 @@ body{
     width: 100%;
     margin: 0px;
 }
-
 .strim{
     align-items: center;
     justify-content: center;
