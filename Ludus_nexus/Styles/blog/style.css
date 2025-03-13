@@ -1,54 +1,63 @@
+    /* تنظیم اندازه استاندارد صفحه */
     *{
         box-sizing: border-box;
     }
 
     /* بخش سرصفحه */
 
-    header {
-        direction: rtl;
+    header{
+        direction: rtl;/* راست به چپ */
         padding: 20px;
         text-align: right;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        display: flex; /*تقسیم هدر */
+        align-items: center; /*تنظیم افقی*/
+        justify-content: space-between; /*فاصله ایتم ها*/
     }
+
     header img{
         text-align: left;
         margin-left: 99px;
         width: 251px;
     }
+
     nav ul {
-        list-style-type: none;
+        list-style-type: none; /*برداشتن توپک ها*/
         margin: 0;
         padding: 0;
     }
+
     nav ul li {
-        display: inline;
+        display: inline; /*تنظیم روی یک خط*/
         margin-right: 80px;
     }
+
     nav ul li a {
         color: #ffffff;
-        text-decoration: none;
+        text-decoration: none; /*برداشتن زیرخط*/
         font-size: 18px;
     }
+
     nav ul li a:hover {
         text-decoration: none;
     }
+
     header a {
         text-decoration: underline;
         position: relative;
         font-size: 18px;
         color: #ffffff; /* رنگ متن لینک */
     }
-    input[type=text]{
-        background: linear-gradient(to right,#000DFD6B, #7300FF69);
+
+    input[type=text]{ /*تنظیم دکمه تایپ تکست*/
+        background: linear-gradient(to right,#000DFD6B, #7300FF69); /*بک گراند گردنیت*/
         border: none;
         border-radius: 5px;
         width: 20%;
         padding: 8px;
     }
+
     header a::after {
-        content: '';
+        content: ''; /*محتوای درونی*/
         position: absolute;
         width: 100%;
         height: 3px; /* ضخامت خط */
@@ -56,30 +65,36 @@
         left: 0;
         background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
         visibility: initial;
-        transform: scaleX(0);
-        transition: transform 0.3s ease-in-out;
+        transform: scaleX(0); /*برداشتن زیرخط*/
+        transition: transform 0.3s ease-in-out; /*نحوه اجرای زیرخط*/
     }
+
     header a:hover::after {
         transform: scaleX(1); /* حذف خط هنگام هاور */
     }
+
     .searchbox img{
         width: 30px;
         height: auto;
         position: absolute;
     }
+    
     .searchbox{
-        position: relative;
+        position: relative; /*وابسته به دیو مادر*/
     }
+    
     .searchbox input{
-        padding-right: 30px;
+        padding-right: 30px; /*شروع نوشتن از جلوتر*/
         color: white;
         font-size: 15px;
     }
+    
     .search-nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+    
     .search-nav input[type=text]{
         width: 100%;
     }
@@ -87,8 +102,8 @@
     /* بخش وبلاگ ها */
 
     .back{
-        position: fixed;
-        z-index: -1;
+        position: fixed; /*ثابت در پس زمینه*/
+        z-index: -1; /*در لایه اخر*/
         width: 100%;
         height: 100%;
     }
@@ -96,24 +111,22 @@
     body{
         color: white;
         direction: rtl;
-        user-select: none;
+        user-select: none; /*برداشتن حالت انتخاب*/
         margin: 0px;
     }
 
     .container img{
         width: 100%;
-        vertical-align: top;
-        backface-visibility: hidden;
     }
 
     .container{
-        display: inline-block;
+        display: inline-block; /*قرار گیری در یک خط*/
         justify-content: center;
         font-size: 16px;
         margin: 10px ;
         max-width: 400px;
         min-width: 230px;
-        overflow: hidden;
+        overflow: hidden; /*اندازه هاله خاکستری*/
         position: relative;
         text-align: center;
     }
@@ -124,7 +137,7 @@
 
     .container::before,
     .container::after{
-        content: "";
+        content: ""; /*بک گراند هاله*/
         position: absolute;
         top: 0px;
         bottom: 0px;
@@ -134,10 +147,10 @@
         transform: scaleY(2);
         z-index: 1;
         opacity: 0;
-        transition: all .3s ease
+        transition: all .3s ease; /*نحوه اجرا*/
     }
 
-    .container figcaption{
+    .container figcaption{ /*کپشن نوشته ها*/
         position: absolute;
         top: 0;
         bottom: 0;
@@ -154,12 +167,12 @@
 
     .container:hover figcaption{
         opacity: 1;
-        transition-delay: 0.1s ;
+        transition-delay: 0.1s ; /*تاخیر اجرا*/
     }
 
     .container:hover::before,
     .container:hover::after{
-        opacity: 1;
+        opacity: 1; /*شفافیت هاله*/
     }
 
     .container a{
@@ -168,16 +181,11 @@
         bottom: 0;
         left: 0;
         right: 0;
-        z-index: 3;
+        z-index: 3; /*لایه بالاتر*/
     }
 
     .set{
         text-align: center;
-        flex-wrap: wrap;
-    }
-
-    hr{
-        width: 50%;
     }
 
     /* بخش فوتر */
@@ -194,7 +202,7 @@
     }
 
     .footer-addres{
-        border-left: 1px solid;
+        border-left: 1px solid; /*ایجاد خط عمودی*/
         padding-left: 25px;
     }
 

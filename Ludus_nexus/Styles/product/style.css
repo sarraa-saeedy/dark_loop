@@ -1,236 +1,251 @@
-/* بخش سرصفحه */
+    /* بخش سرصفحه */
 
-header {
-    direction: rtl;
-    padding: 20px;
-    text-align: right;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header img{
-    text-align: left;
-    margin-left: 99px;
-    width: 251px;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 80px;
-}
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
-nav ul li a:hover {
-    text-decoration: none;
-}
-header a {
-    text-decoration: underline;
-    position: relative;
-    font-size: 18px;
-    color: #ffffff; /* رنگ متن لینک */
-}
-input[type=text]{
-    background: linear-gradient(to right,#000DFD6B, #7300FF69);
-    border: none;
-    border-radius: 5px;
-    width: 20%;
-    padding: 8px;
-}
-header a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px; /* ضخامت خط */
-    bottom: -3px; /* فاصله خط از متن */
-    left: 0;
-    background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
-    visibility: initial;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-}
-header a:hover::after {
-    transform: scaleX(1); /* حذف خط هنگام هاور */
-}
-.searchbox img{
-    width: 30px;
-    height: auto;
-    position: absolute;
-}
-.searchbox{
-    position: relative;
-}
-.searchbox input{
-    padding-right: 30px;
-    color: white;
-    font-size: 15px;
-}
-.search-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.search-nav input[type=text]{
-    width: 100%;
-}
+    header {
+        direction: rtl; /*جهت صفحه*/
+        padding: 20px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-/* بخش ویدیو استریم  */
+    header img{
+        text-align: left;
+        margin-left: 99px;
+        width: 251px;
+    }
 
-body{
-    direction: rtl;
-    margin: 0px;
-    color: white;
-    user-select: none;
-}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-.back{
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    margin: 0px;
-}
-.strim{
-    align-items: center;
-    justify-content: center;
-}
+    nav ul li {
+        display: inline;
+        margin-right: 80px;
+    }
 
-.strim h3{
-    background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
-    padding: 7px;
-    margin: 25px;
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 0px;
-    font-size: 30px;
-}
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
 
-/* استایل استریم ها */
+    nav ul li a:hover {
+        text-decoration: none;
+    }
 
-.strim-photo2{
-    margin: 50px;
-    background-color: #1500533D;
-    font-size: 25px;
-    border-radius: 25px;
-}
+    header a {
+        text-decoration: underline;
+        position: relative;
+        font-size: 18px;
+        color: #ffffff; /* رنگ متن لینک */
+    }
 
-.strim-photo2 img{
-    width: 400px;
-    margin: 20px;
-    margin-right: 100px;
-    cursor: pointer;
-    border-radius: 25px;
-}
+    input[type=text]{
+        background: linear-gradient(to right,#000DFD6B, #7300FF69);
+        border: none;
+        border-radius: 5px;
+        width: 20%;
+        padding: 8px;
+    }
 
-.strim-button{
-    margin-right: 45%;
-    margin-top: 90px;
-    width: 160px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 6px 5px #340d76e5;
-    font-size: 25px;
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 30px;
-    background-image: linear-gradient(#1100FF, #9000FF);
-    background-color: #712BE9E5; /* برای مرور گر هایی که گردینت اعمال نمی شود*/
-}
+    header a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px; /* ضخامت خط */
+        bottom: -3px; /* فاصله خط از متن */
+        left: 0;
+        background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
+        visibility: initial;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
 
-/* بخش سوالهای متداول  */
+    header a:hover::after {
+        transform: scaleX(1); /* حذف خط هنگام هاور */
+    }
 
-.question-part h3{
-    background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
-    padding: 7px;
-    margin: 25px;
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 30px;
-}
+    .searchbox img{
+        width: 30px;
+        height: auto;
+        position: absolute;
+    }
 
-.question{
-    margin-right: 15%;
-}
+    .searchbox{
+        position: relative;
+    }
 
-.question span{
-    border-bottom: 3px solid;
-    display: inline-block; /*چون بشه خط و تنظیم کرد*/
-    width: 80%;
-    border-image: linear-gradient(to right, #0569FF, #7631FF , #6105FF) 1;
-    font-size: 25px;
-    padding: 10px;
-}
+    .searchbox input{
+        padding-right: 30px;
+        color: white;
+        font-size: 15px;
+    }
 
-.question-icon{
-    cursor: pointer;
-    display: inline-block;
-}
+    .search-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-/* بخش فوتر */
+    .search-nav input[type=text]{
+        width: 100%;
+    }
 
-footer{
-    display: flex;
-    font-size: 18px;
-    justify-content: space-evenly;
-    height: 230px;
-}
+    /* بخش ویدیو استریم  */
 
-.footer-addres img{
-    width: 50px;
-}
+    body{
+        direction: rtl;
+        margin: 0px;
+        color: white;
+        user-select: none; /*برداشتن حالت انتخاب*/
+    }
 
-.footer-addres{
-    border-left: 1px solid;
-    padding-left: 25px;
-}
+    .back{
+        position: fixed;
+        z-index: -1; /*پایین ترین لایه*/
+        width: 100%;
+        margin: 0px;
+    }
 
-.pic-of-trust{
-    padding: 3px;
-}
+    .strim{
+        align-items: center;
+        justify-content: center;
+    }
 
-.footer-middle ul{
-    list-style-type: none;
-}
+    .strim h3{
+        background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
+        padding: 7px;
+        margin: 25px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 30px;
+    }
 
-li{
-    padding: 7px;
-}
+    /* استایل استریم ها */
 
-.footer-middle-call ul{
-    list-style-type: none;
-}
+    .strim-photo2{
+        margin: 50px;
+        background-color: #1500533D;
+        font-size: 25px;
+        border-radius: 25px;
+    }
 
-.footer-middle-call{
-    padding-left: 40px;
-    border-left: 1px solid;
-    display: inline-block;
-}
+    .strim-photo2 img{
+        width: 400px;
+        margin: 20px;
+        margin-right: 100px;
+        cursor: pointer; /*دست انتخابی*/
+        border-radius: 25px;
+    }
 
-.footer-logo img{
-    width: 100px;
-}
+    .strim-button{
+        margin-right: 45%;
+        margin-top: 90px;
+        width: 160px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 6px 5px #340d76e5; /*سایه*/
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-size: 30px;
+        background-image: linear-gradient(#1100FF, #9000FF);
+        background-color: #712BE9E5; /* برای مرور گر هایی که گردینت اعمال نمی شود*/
+    }
 
-.footer-darkloop-logo img{
-    width: 250px;
-}
+    /* بخش سوالهای متداول  */
 
-.footer-compony{
-    font-size: 20px;
-    text-align: center;
-}
+    .question-part h3{
+        background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
+        padding: 7px;
+        margin: 25px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+    }
 
-footer a{
-    color: white;
-    text-decoration: none;
-}
+    .question{
+        margin-right: 15%; /*فاصله از راست */
+    }
 
-footer a:hover{
-    color:#905ef4;
-}
+    .question span{
+        border-bottom: 3px solid; /*خط زیرین*/
+        display: inline-block; /*چون بشه خط و تنظیم کرد*/
+        width: 80%;
+        border-image: linear-gradient(to right, #0569FF, #7631FF , #6105FF) 1;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .question-icon{
+        cursor: pointer;
+        display: inline-block; /*قرارگیری روی یک خط*/
+    }
+
+    /* بخش فوتر */
+
+    footer{
+        display: flex;
+        font-size: 18px;
+        justify-content: space-evenly;
+        height: 230px;
+    }
+
+    .footer-addres img{
+        width: 50px; /*تنظیم اندازه عکس*/
+    }
+
+    .footer-addres{
+        border-left: 1px solid; /*ایجاد خط عمودی*/
+        padding-left: 25px;
+    }
+
+    .pic-of-trust{
+        padding: 3px; /*عکس های شرکت ها*/
+    }
+
+    .footer-middle ul{
+        list-style-type: none;
+    }
+
+    li{
+        padding: 7px;
+    }
+
+    .footer-middle-call ul{
+        list-style-type: none;
+    }
+
+    .footer-middle-call{
+        padding-left: 40px; /*فاصله داخلی از چپ*/
+        border-left: 1px solid;
+        display: inline-block;
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+
+    .footer-darkloop-logo img{
+        width: 250px;
+    }
+
+    .footer-compony{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color:#905ef4;
+    }
