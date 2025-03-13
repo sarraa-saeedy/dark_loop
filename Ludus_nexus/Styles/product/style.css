@@ -1,4 +1,84 @@
-/* بخش ویدیو استریم */
+/* بخش سرصفحه */
+
+header {
+    direction: rtl;
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    text-align: left;
+    margin-left: 99px;
+    width: 251px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: none;
+}
+header a {
+    text-decoration: underline;
+    position: relative;
+    font-size: 18px;
+    color: #ffffff; /* رنگ متن لینک */
+}
+input[type=text]{
+    background: linear-gradient(to right,#000DFD6B, #7300FF69);
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    padding: 8px;
+}
+header a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; /* ضخامت خط */
+    bottom: -3px; /* فاصله خط از متن */
+    left: 0;
+    background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
+    visibility: initial;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+header a:hover::after {
+    transform: scaleX(1); /* حذف خط هنگام هاور */
+}
+.searchbox img{
+    width: 15px;
+    height: auto;
+    position: absolute;
+}
+.searchbox{
+    position: relative;
+}
+.searchbox input{
+    padding-right: 20px;
+}
+.search-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-nav input[type=text]{
+    width: 100%;
+}
+
+/* بخش ویدیو استریم  */
 
 body{
     direction: rtl;
