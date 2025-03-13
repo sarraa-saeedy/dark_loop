@@ -35,4 +35,4 @@ as well as create an online platform for the commuity of gamers and streamers,an
 <p>website Addres:<a href="#">#</a></p>
 <p>Contact Us:<a href="#">#</a></p>
 Document:
-<p>documentation file:<a href=""></a></p>
+<p>documentation files:<a href=""></a></p>
