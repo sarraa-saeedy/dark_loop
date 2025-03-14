@@ -1,0 +1,250 @@
+    /* تنظیم اندازه استاندارد صفحه */
+    *{
+        box-sizing: border-box;
+    }
+
+    /* بخش سرصفحه */
+
+    header{
+        direction: rtl;/* راست به چپ */
+        padding: 20px;
+        text-align: right;
+        display: flex; /*تقسیم هدر */
+        align-items: center; /*تنظیم افقی*/
+        justify-content: space-between; /*فاصله ایتم ها*/
+    }
+
+    header img{
+        text-align: left;
+        margin-left: 99px;
+        width: 251px;
+    }
+
+    nav ul {
+        list-style-type: none; /*برداشتن توپک ها*/
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline; /*تنظیم روی یک خط*/
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none; /*برداشتن زیرخط*/
+        font-size: 18px;
+    }
+
+    nav ul li a:hover {
+        text-decoration: none;
+    }
+
+    header a {
+        text-decoration: underline;
+        position: relative;
+        font-size: 18px;
+        color: #ffffff; /* رنگ متن لینک */
+    }
+
+    input[type=text]{ /*تنظیم تایپ تکست*/
+        background: linear-gradient(to right,#000DFD6B, #7300FF69); /*بک گراند گردنیت*/
+        border: none;
+        border-radius: 5px;
+        width: 20%;
+        padding: 8px;
+    }
+
+    header a::after {
+        content: ''; /*محتوای درونی*/
+        position: absolute;
+        width: 100%;
+        height: 3px; /* ضخامت خط */
+        bottom: -3px; /* فاصله خط از متن */
+        left: 0;
+        background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
+        visibility: initial;
+        transform: scaleX(0); /*برداشتن زیرخط*/
+        transition: transform 0.3s ease-in-out; /*نحوه اجرای زیرخط*/
+    }
+
+    header a:hover::after {
+        transform: scaleX(1); /* حذف خط هنگام هاور */
+    }
+
+    .searchbox img{
+        width: 30px;
+        height: auto;
+        position: absolute;
+    }
+    
+    .searchbox{
+        position: relative; /*وابسته به دیو مادر*/
+    }
+    
+    .searchbox input{
+        padding-right: 30px; /*شروع نوشتن از جلوتر*/
+        color: white;
+        font-size: 15px;
+    }
+    
+    .search-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .search-nav input[type=text]{
+        width: 100%;
+    }
+
+    /* بخش وبلاگ ها */
+
+    .back{
+        position: fixed; /*ثابت در پس زمینه*/
+        z-index: -1; /*در لایه اخر*/
+        width: 100%;
+        height: 100%;
+    }
+
+    body{
+        color: white;
+        direction: rtl;
+        user-select: none; /*برداشتن حالت انتخاب*/
+        margin: 0px;
+    }
+
+    .container img{
+        width: 100%;
+    }
+
+    .container{
+        display: inline-block; /*قرار گیری در یک خط*/
+        justify-content: center;
+        font-size: 16px;
+        margin: 10px ;
+        max-width: 400px;
+        min-width: 230px;
+        overflow: hidden; /*اندازه هاله خاکستری*/
+        position: relative;
+        text-align: center;
+    }
+
+    .container-title{
+        font-size: 23px;
+    }
+
+    .container::before,
+    .container::after{
+        content: ""; /*بک گراند هاله*/
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.25);
+        transform: scaleY(2);
+        z-index: 1;
+        opacity: 0;
+        transition: all .3s ease; /*نحوه اجرا*/
+    }
+
+    .container figcaption{ /*کپشن نوشته ها*/
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 2;
+        opacity: 0;
+        transition-delay: 0 ;
+    }
+
+    .container:hover figcaption{
+        opacity: 1;
+        transition-delay: 0.1s ; /*تاخیر اجرا*/
+    }
+
+    .container:hover::before,
+    .container:hover::after{
+        opacity: 1; /*شفافیت هاله*/
+    }
+
+    .container a{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 3; /*لایه بالاتر*/
+    }
+
+    .set{
+        text-align: center;
+    }
+
+    /* بخش فوتر */
+
+    footer{
+        display: flex;
+        font-size: 18px;
+        justify-content: space-evenly;
+        height: 230px;
+    }
+
+    .footer-addres img{
+        width: 50px;
+    }
+
+    .footer-addres{
+        border-left: 1px solid; /*ایجاد خط عمودی*/
+        padding-left: 25px;
+    }
+
+    .pic-of-trust{
+        padding: 3px;
+    }
+
+    .footer-middle ul{
+        list-style-type: none;
+    }
+
+    li{
+        padding: 7px;
+    }
+
+    .footer-middle-call ul{
+        list-style-type: none;
+    }
+
+    .footer-middle-call{
+        padding-left: 40px;
+        border-left: 1px solid;
+        display: inline-block;
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+
+    .footer-darkloop-logo img{
+        width: 250px;
+    }
+
+    .footer-compony{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color:#905ef4;
+    }

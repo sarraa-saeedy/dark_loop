@@ -5,18 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Styles/product/style.css">
+    <Script src="../js/script.js"></Script>
 </head>
 <body>
-    <img src="../Assets/Image/shop-strim.jpg" alt="backgraound-img" class="back">
+    <!-- عکس بگ گراند -->
+    <img src="../Assets/Image/product-back.jpg" alt="backgraound-img" class="back">
+
+    <!-- بخش سرصفحه -->
+  <header>
+    <!-- باکس جستجو -->
+    <div class="search-nav"> <!-- سرچ باکس -->
+      <div class="searchbox">
+          <img src="../Assets/Image/icon-search.png" alt="">
+          <input type="text" placeholder="جستجو">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../Pages/Index.html">خانه</a></li>
+          <li><a href="../Pages/blog.html"> وبلاگ </a></li>
+          <li><a href="#"> پکیج های ویژه </a></li>
+          <li><a href="../Pages/about-us.html">درباره ما</a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="../Assets/Image/Ludus-nexus logo.png" alt="Ludus-nexus logo">
+  </header>
+    <!-- بخش اسلایدر -->
+  <div class="slider">
+    <div class="slides">
+        <div class="slide">
+            <img src="../Assets/Image/slider pic.jpg" alt="محصول 1">
+        </div>
+        <div class="slide">
+            <img src="../Assets/Image/slider pic.jpg" alt="محصول 2">
+        </div>
+        <div class="slide">
+            <img src="../Assets/Image/slider pic.jpg" alt="محصول 3">  
+        </div>
+        <div class="slide">
+            <img src="../Assets/Image/slider pic.jpg" alt="محصول 4">  
+        </div>
+    </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+     <!-- بخش محصولات فروشگاه -->
+    <h3 class="shop">فروشگاه</h3>
+    <br>
+    <br>
+    <!-- محصولات -->
+    <div class="allprodoct">
+      <table class="prodoct">
+          <tr>
+              <td class="td1"> 
+                  <img src="../Assets/Image/muose.jpg" alt="موس">
+              </td>
+              <td class="td1"> 
+                <img src="../Assets/Image/sistem.jpg" alt="سیستم گیم">
+              </td>
+              <td class="td1"> 
+                <img src="../Assets/Image/chare.jpg" alt="صندلی">
+              </td>
+              <td class="td1"> 
+                <img src="../Assets/Image/headset.jpg" alt="هدست">
+              </td>
+          </tr>
+          <tr>
+            <td class="td2"><pre>
+
+ موس گیمینگ لاجیتک 
+
+ G502 SE 25K
+
+ 3940000
+            </pre> 
+            </td>
+            <td class="td2"><pre>
+
+
+سیستم گیمینگ اورگیم 
+
+Oxid
+
+44500000
+
+            </pre>
+            </td>
+            <td class="td2"><pre>
+
+صندلی گیمینگ رنزو
+
+Royal Zebra Edition 
+
+20690000
+            </pre>
+            </td>
+            <td class="td2"><pre>
+هدست فانتزی گیمینگ استیل سریز  
+              
+Arctis nova 1 XBOX Black
+             
+6900000
+            </pre>
+            </td>
+           </tr>
+      </table>
+      </div>
+      <br>
+      <br>
+    <!-- دکمه بیشتر -->
+      <a href="#"><input type="button" value="بیشتر..." class="prodoct-button" /></a>
+      <br>
+      <br>
+
     <!-- بخش ویدیو استریم  -->
     <div class="strim" id="strim">
         <h3>ویدیو استریم</h3>
+
         <!-- استریم اول -->
         <div class="strim-photo2">
           <table>
             <tr>
               <td>
-                <img src="../Assets/Image/strim1.png" alt="photo strim2" />
+                <a href="../Styles/product/video.html"><img src="../Assets/Image/strim1.png" alt="photo strim2" /></a>
               </td>
               <td>
                 <span>شبیه ساز زندگی استریمرو گیمر(پارت23)استریم <br/>رو ترکوندم
@@ -28,6 +139,7 @@
             </tr>
           </table>
         </div>
+
         <!-- استریم دوم  -->
         <div class="strim-photo2">
           <table>
@@ -45,6 +157,7 @@
             </tr>
           </table>
         </div>
+
         <!-- استریم سوم  -->
         <div class="strim-photo2">
           <table>
@@ -62,12 +175,13 @@
             </tr>
           </table>
         </div>
+
         <!-- استریم چهارم  -->
         <div class="strim-photo2">
           <table>
             <tr>
               <td>
-                <img src="../Assets/Image/strim4.png" alt="photo strim4" />
+                <img src="../Assets/Image/strim4.jpg" alt="photo strim4" />
               </td>
               <td>
                 <span>
@@ -82,29 +196,92 @@
         </div>
     </div>
     <!-- دیو پایانی -->
+    
+    <!-- دکمه ورود برای استریم های بیشتر -->
     <a href="#"><input type="button" value="بیشتر..." class="strim-button" /></a>
     <br/><br/><br/><br/><br/>
+
     <!-- بخش سوالهای متداول -->
     <div class="question-part">
-        <h3>سوال های متداول</h3>
-        <br/><br/><br/><br/>
-        <div class="question">
+      <h3>سوال های متداول</h3>
+      <br/><br/><br/><br/>
+      <div class="question">
         <span>چگونه میتوان با پشتیبانی مشتریان تماس گرفت؟</span>
-        <img src="../Assets/Image/Group 64.png" alt="Chevron down" class="question-icon" />
+        <img src="../Assets/Image/question-part.png" alt="Chevron down" class="question-icon"/>
         <br/><br/><br/>
         <span>هزینه ارسال محصولات چقدر هست؟</span>
-        <img src="../Assets/Image/Group 64.png" alt="Chevron down" class="question-icon" />
+        <img src="../Assets/Image/question-part.png" alt="Chevron down" class="question-icon"/>
         <br/><br/><br/>
         <span>چگونه میتوانم سفارش خود را لغو کنم؟</span>
-        <img src="../Assets/Image/Group 64.png" alt="Chevron down" class="question-icon" />
+        <img src="../Assets/Image/question-part.png" alt="Chevron down" class="question-icon"/>
         <br/><br/><br/>
         <span>آیا امکان پرداخت اقساطی وجود دارد؟</span>
-        <img src="../Assets/Image/Group 64.png" alt="Chevron down" class="question-icon" />
+        <img src="../Assets/Image/question-part.png" alt="Chevron down" class="question-icon"/>
         <br/><br/><br/>
-        </div>
+      </div>
   </div>
   <br/><br/><br/><br/>
-  <hr width="90%" color="#D9D9D9" />
+
+  <hr width="90%" color="#D9D9D9"/>
   <br/><br/><br/>
+
+  <!-- بخش فوتر -->
+  <footer>
+    <div class="footer-addres">
+      <h3>نشانی :</h3>
+      <span>خراسان رضوی _ مشهد _ بلوار هاشمیه _ هاشمیه 2</span>
+      <div class="footer-addres-pic">
+        <br/>
+        <img src="../Assets/Image/trust1.png" alt="pic-of-trust" class="pic-of-trust" />
+        <img src="../Assets/Image/trust2.png" alt="pic-of-trust" class="pic-of-trust" />
+        <img src="../Assets/Image/trust3.jpg" alt="pic-of-trust" class="pic-of-trust" />
+        <img src="../Assets/Image/trust4.png" alt="pic-of-trust" class="pic-of-trust" />
+      </div>
+    </div>
+    <div class="resourse">
+      <h3>منابع</h3>
+    </div>
+    <div class="footer-middle">
+      <ul>
+        <h3>اکسپلور</h3>
+        <a href="#">
+          <li>فروشگاه</li>
+        </a>
+        <a href="#">
+          <li>وبلاگ</li>
+        </a>
+        <a href="#">
+          <li>ویدیو استریم</li>
+        </a>
+        <a href="#">
+          <li>درباره ما</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="footer-middle-call">
+      <ul>
+        <h3>تماس باما</h3>
+        <a href="#">
+          <li>ایمیل</li>
+        </a>
+        <a href="#">
+          <li>اینستاگرام</li>
+        </a>
+        <a href="#">
+          <li>تلگرام</li>
+        </a>
+        <a href="#">
+          <li>واتساپ</li>
+        </a>
+        <a href="#">
+          <li>لینکدین</li>
+        </a>
+      </ul>
+    </div>
+    <div class="footer-darkloop-logo">
+      <img src="../Assets/Image/darkloop_logo.png" alt="darkloop_logo" />
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,199 @@
+    /* Small */
+
+@media only screen and (min-width: 576px) {
+    .back{
+        position: fixed;
+        z-index: -1; /*لایه اخر و پایین تر*/
+        width: 100%;
+        height: 100%;
+    }
+
+    header img{
+        display: none;
+    }
+
+    article{
+        order: 1; /* اول عکس باشه */
+        width: 100%;
+    }
+
+    section{
+        order: 2;
+        width: 100%;
+    }
+
+    main{
+        display: inline-block;
+        width: 100%;
+    }
+
+    section span{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    header nav{
+        display: inline;
+        margin-top: 20px;
+    }
+
+    header{
+        padding: 2px;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .footer-compony{
+        display: none;
+    }
+
+    section input[type=button]{
+        font-size: 20px;
+        padding: 7px;
+        width: 130px;
+        text-align: center;
+    }
+}
+
+    /* Medium */
+
+@media only screen and (min-width: 768px) {
+    .back{
+        position: fixed;
+        z-index: -1; /*لایه اخر و پایین تر*/
+        width: 100%;
+        height: 100%;
+    }
+
+    header img{
+        margin-left: 50px;
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    article{
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+
+    section{
+        width: 100%;
+        order: 1;
+        align-items: center;
+    }
+
+    .section-text{
+        text-align: center;
+        align-items: center;
+    }
+
+    main{
+        display: inline-block;
+        width: 100%;
+    }
+
+    article img{
+        width: 300px;
+        margin-right: 70px;
+    }
+
+    header nav{
+        width: 100%;
+    }
+
+    footer , .footer-compony{
+        display: none;
+    }
+}
+
+    /*Large */
+
+@media only screen and (min-width: 992px) {
+    section span{
+        font-size: 30px;
+    }
+
+    header img{
+        margin-left: 50px;
+        display: block;
+    }
+
+    section input[type=button]{
+        font-size: 20px;
+        padding: 10px;
+        width: 130px;
+    }
+
+    article img{
+        width: 240px;
+        margin-right: 50px;
+    }
+
+    main{
+        display: flex;
+    }
+}
+
+    /* Extra Large */
+
+@media only screen and (min-width: 1200px) {
+    header{
+        padding: 5px;
+    }
+
+    .back{
+        position: fixed;
+        z-index: -1; /*لایه اخر و پایین تر*/
+        width: 100%;
+    }
+
+    header nav{
+        text-align: right;
+        font-size: 25px;
+    }
+
+    article{
+        width: 50%;
+        text-align: center;
+    }
+
+    section{
+        width: 50%;
+    }
+
+    main{
+        display: flex;
+    }
+
+    header img{
+        margin-left: 50px;
+        display: block;
+    }
+
+    article img{
+        width: 290px;
+        margin-right: 140px;
+    }
+
+    section span{
+        font-size: 58px;
+    }
+
+    section input[type=button]{
+        font-size: 30px;
+        padding: 15px;
+        width: 174px;
+    }
+
+    footer{
+        display: flex;
+    }
+}

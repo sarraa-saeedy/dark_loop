@@ -1,0 +1,187 @@
+    body {
+        background-color: #1a1a1a;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+        user-select: none; /* برداشتن حالت انتخاب */
+    }
+
+    .back{
+        position: fixed;
+        z-index: -1; /*لایه اخر و پایین تر*/
+        width: 100%;
+    }
+
+    /* بخش سرصفحه */
+    header {
+        padding: 20px;
+        text-align: right;
+        display: flex;
+        align-items: center; /*تنظیم عمودی*/
+        justify-content: space-between;
+
+    }
+
+    header img{
+        text-align: left;
+        margin-left: 99px;
+        width: 251px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 80px;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li a:hover {
+        text-decoration: none;
+    }
+    header a {
+        text-decoration: underline; /*برداشتن زیرخط*/
+        position: relative;
+        font-size: 18px;
+        color: #ffffff; /* رنگ متن لینک */
+    }
+
+    header a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px; /* ضخامت خط */
+        bottom: -3px; /* فاصله خط از متن */
+        left: 0;
+        background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
+        visibility: initial;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    header a:hover::after {
+        transform: scaleX(1); /* حذف خط هنگام هاور */
+    }
+
+    /* section بخش  */
+
+    section{
+        width: 60%; /* section اندازه بخش*/
+    }
+
+    article{
+        width: 40%; /* article  اندازه بخش*/
+    }
+
+    .section-text{
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 150px; /* فاصله از بالا*/
+        margin-right: 100px;
+    }
+
+    section span{
+        font-size: 58px;
+    }
+
+    .section-text{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    section input[type=button]{  /* استایل دکمه */
+        margin-right: 45%;
+        margin-top: 90px;
+        width: 172px;
+        padding: 15px;
+        border-radius: 40px; /*گوشه گرد*/
+        font-size: 25px;
+        cursor: pointer; /*حالت انتخاب*/
+        background-color: #712BE9E5;
+        box-shadow: 4px 6px #360f79e5; /*سایه*/
+        border: none;
+        color: white;
+        font-size: 30px;
+    }
+
+    main{
+        display: flex;
+    }
+
+    article img{
+        width: 290px;
+        margin-right: 180px;
+        margin-top: 0px;
+    }
+
+    /* بخش فوتر */
+
+    footer{
+        display: flex;
+        font-size: 18px;
+        justify-content: space-evenly;
+        height: 230px;
+    }
+
+    .footer-addres img{
+        width: 50px;
+    }
+
+    .footer-addres{
+        border-left: 1px solid;
+        padding-left: 25px;
+    }
+
+    .pic-of-trust{
+        padding: 3px;
+    }
+
+    .footer-middle ul{
+        list-style-type: none;
+    }
+
+    li{
+        padding: 7px;
+    }
+
+    .footer-middle-call ul{
+        list-style-type: none; /*برداشتن توپک*/
+    }
+
+    .footer-middle-call{
+        padding-left: 40px;
+        border-left: 1px solid; /*خط افقی*/
+        display: inline-block; /*قرار گیری روی یک خط*/
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+
+    .footer-darkloop-logo img{
+        width: 250px;
+    }
+
+    .footer-compony{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color:#905ef4;
+    }
