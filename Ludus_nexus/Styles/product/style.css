@@ -183,6 +183,23 @@ table{
     background-color: #843DFF9E;
     border-radius: 5px;
 }
+/* دکمه بیشتر */
+.prodoct-button{
+    margin-right: 45%;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 6px 5px #340d76e5; /*سایه*/
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 30px;
+    background-image: linear-gradient(#1100FF, #9000FF);
+    background-color: #712BE9E5;
+   }
 
 /* بخش ویدیو استریم  */
 
