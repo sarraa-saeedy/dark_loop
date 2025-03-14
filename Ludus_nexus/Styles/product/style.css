@@ -127,6 +127,19 @@ button {
     right: 10px;
 }
 
+/* بخش محصولات فروشگاه */
+
+.shop h3{
+    text-align: center;
+    background: linear-gradient(to right,#0569FF,#7631FF,#6105FF);
+    border-radius: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 7px;
+    margin: 25px;
+    margin-top: 0px;
+}
+
 /* بخش ویدیو استریم  */
 
 body{
