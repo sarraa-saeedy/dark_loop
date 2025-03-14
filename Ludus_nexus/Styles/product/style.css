@@ -140,6 +140,50 @@ button {
     margin-top: 0px;
 }
 
+/* محصولات */
+
+td{
+    text-align: center;
+    padding:0px;
+    margin: 60px;  
+}
+
+table{
+    border-radius: 10px;
+    margin:auto;   
+    width: 80%;      
+}
+
+.prodoct td img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.allprodoct{
+    background-color:#6A44ADAB;
+    width: 98%;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+}   
+
+.td1{
+    background-color:#6A44ADAB;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.td2{
+    background-color: #843DFF9E;
+    border-radius: 5px;
+}
+
 /* بخش ویدیو استریم  */
 
 body{
