@@ -148,13 +148,13 @@ button {
 
 /* محصولات */
 
-td{
+.allprodoct td{
     text-align: center;
     padding:0px;
     margin: 60px;  
 }
 
-table{
+.allprodoct table{
     border-radius: 10px;
     margin:auto;   
     width: 80%;      
@@ -177,7 +177,7 @@ table{
     padding: 20px;
 }   
 
-.td1{
+.allprodoct .td1{
     background-color:#6A44ADAB;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -185,7 +185,7 @@ table{
     border-bottom-right-radius: 5px;
 }
 
-.td2{
+.allprodoct .td2{
     background-color: #843DFF9E;
     border-radius: 5px;
 }
@@ -244,6 +244,7 @@ body{
     margin: 50px;
     background-color: #1500533D;
     font-size: 25px;
+    text-align: right;
 }
 
 .strim-photo2 img{
