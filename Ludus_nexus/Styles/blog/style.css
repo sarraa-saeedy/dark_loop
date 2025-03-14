@@ -28,7 +28,6 @@
 
     nav ul li {
         display: inline; /*تنظیم روی یک خط*/
-        margin-right: 80px;
     }
 
     nav ul li a {
@@ -48,7 +47,7 @@
         color: #ffffff; /* رنگ متن لینک */
     }
 
-    input[type=text]{ /*تنظیم دکمه تایپ تکست*/
+    input[type=text]{ /*تنظیم تایپ تکست*/
         background: linear-gradient(to right,#000DFD6B, #7300FF69); /*بک گراند گردنیت*/
         border: none;
         border-radius: 5px;
