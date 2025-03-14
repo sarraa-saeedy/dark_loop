@@ -28,15 +28,17 @@
     }
 
     section span{
-        font-size: 30px
+        font-size: 30px;
+        text-align: center;
     }
 
     header nav{
         display: inline;
+        margin-top: 20px;
     }
 
     header{
-        padding: 7px;
+        padding: 2px;
     }
 
     footer{
@@ -85,6 +87,12 @@
     section{
         width: 100%;
         order: 1;
+        align-items: center;
+    }
+
+    .section-text{
+        text-align: center;
+        align-items: center;
     }
 
     main{
