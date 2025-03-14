@@ -22,4 +22,5 @@ function moveSlide(direction) {
 }
 
 // نمایش اولین اسلاید
+
 showSlide(currentIndex)
