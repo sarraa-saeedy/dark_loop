@@ -1,0 +1,20 @@
+    /* Small */
+
+    @media only screen and (min-width: 576px) {
+    }
+    
+        /* Medium */
+    
+    @media only screen and (min-width: 768px) {
+    }
+    
+        /*Large */
+    
+    @media only screen and (min-width: 992px) {
+    }
+    
+        /* Extra Large */
+    
+    @media only screen and (min-width: 1200px) {
+    }
+    
