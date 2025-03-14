@@ -1,26 +1,48 @@
 
-// جاوا اسکریپت اسلایدر
-let currentIndex = 0;
+var slides=document.getElementsByClassName("slide")
+var prev=document.querySelector(".prev")
+var next=document.querySelector(".next")
+var n=0;
 
-function showSlide(index) {
-    const slides = document.querySelector('.slides');
-    const totalSlides = document.querySelectorAll('.slide').length;
-
-    if (index >= totalSlides) {
-        currentIndex = 0;
-    } else if (index < 0) {
-        currentIndex = totalSlides - 1;
-    } else {
-        currentIndex = index;
+function displaynone(){
+    for(let i=0 ; i<slides.length;i++){
+        slides[i].style.display='none';
     }
-
-    slides.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';
+}
+function noActive(){
+    for(let i=0 ; i<slides.length;i++){
+        slides[i].classList.remove=('active');
+    }
 }
 
-function moveSlide(direction) {
-    showSlide(currentIndex + direction);
+next.addEventListener("click",function(){
+    n++;
+    if(n>slides.length-1){
+        n=0;
+    }
+    displaynone();
+    noActive();
+    slides[n].style.display='block';
+    slides[n].classList.add('active');
+});
+
+prev.addEventListener("click",function(){
+    n--;
+    if(n<0){
+        n=slides.length-1;
+    }
+    displaynone();
+    noActive();
+    slides[n].style.display='block';
+    slides[n].classList.add('active');
+});
+setInterval(function(){
+    n++;
+    if(n>slides.length-1){
+        n=0;
 }
-
-// نمایش اولین اسلاید
-
-showSlide(currentIndex)
+    displaynone();
+    noActive();
+    slides[n].style.display='block';
+    slides[n].classList.add=('active');
+},4000);
