@@ -1,0 +1,263 @@
+    /* Small */
+
+    @media only screen and (min-width: 576px) {
+    
+        header img{
+            display: none;
+        }
+
+        .back{
+            height: 100%;
+        }
+    
+        header nav ul li{
+            margin-right: 5px;
+        }
+
+        .search-nav input[type=text]{
+            width: 75%;
+        }
+
+        footer{
+            margin: 50px;
+            font-size: 16px;
+        }
+
+        .paragraph .text2{
+            padding-left: 130px;
+            padding-right: 130px;
+            font-size: 19px;
+        }
+
+        .paragraph .text3{
+            padding-left: 130px;
+            padding-right: 130px;
+            font-size: 22px;
+        }
+
+        .footer-darkloop-logo{
+            display: none;
+        }
+
+        .footer-middle-call{
+            border-left: none;
+            padding-left: 63px;
+        }
+
+        .footer-addres-pic{
+            display: none;
+        }
+
+        .footer-addres{
+            border-left: none;
+        }
+
+        .resourse{
+            display: none;
+        }
+    }
+    
+        /* Medium */
+    
+    @media only screen and (min-width: 768px) {
+        header img{
+            display: none;
+        }
+    
+        .search-nav{
+            width: 100%;
+        }
+    
+        header nav ul li{
+            padding: 15px;
+        }
+    
+        header nav{
+            width: 100%;
+            text-align: center;
+        }
+
+        footer{
+            margin: 50px;
+            font-size: 13px;
+        }
+
+        .resourse{
+            margin: 5px;
+        }
+
+        .paragraph{
+            font-size: 19px;
+        }
+
+        .paragraph .text2{
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: 25px;
+        }
+
+        .paragraph .text3{
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: 25px;
+        }
+
+        .search-nav input[type=text]{
+            width: 100%;
+        }
+
+        .back{
+            height: auto;
+        }
+
+        .footer-darkloop-logo{
+            display: block;
+        }
+
+        .footer-middle-call{
+            border-left: 1px solid;
+            padding-left: 40px;
+        }
+
+        .footer-addres-pic{
+            display: block;
+        }
+
+        .footer-addres{
+            border-left: 1px solid;
+        }
+
+        .resourse{
+            display: block;
+        }
+    }
+    
+        /*Large */
+    
+    @media only screen and (min-width: 992px) {
+        nav ul li{
+            padding: 15px;
+        }
+    
+        footer{
+            font-size: 18px;
+            margin: 50px;
+        }
+    
+        footer .resourse{
+            margin-right: 18px;
+        }
+    
+        header img{
+            display: block;
+        }
+
+        .paragraph{
+            font-size: 25px;
+        }
+
+        .paragraph .text2{
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: 25px;
+        }
+
+        .paragraph .text3{
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: 25px;
+        }
+
+        .search-nav input[type=text]{
+            width: 100%;
+        }
+
+        .back{
+            height: auto;
+        }
+
+        .footer-darkloop-logo{
+            display: block;
+        }
+
+        .footer-middle-call{
+            border-left: 1px solid;
+            padding-left: 40px;
+        }
+
+        .footer-addres-pic{
+            display: block;
+        }
+
+        .footer-addres{
+            border-left: 1px solid;
+        }
+
+        .resourse{
+            display: block;
+        }
+    }
+    
+        /* Extra Large */
+    
+    @media only screen and (min-width: 1200px) {
+        nav li {
+            margin: 20px;
+        }
+    
+        header img{
+            display: block;
+        }
+    
+        footer{
+            display: block;
+            display: flex;
+            font-size: 18px;
+        }
+
+        .paragraph{
+            font-size: 25px;
+        }
+
+        .paragraph .text2{
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: 25px;
+        }
+
+        .paragraph .text3{
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: 25px;
+        }
+
+        .search-nav input[type=text]{
+            width: 100%;
+        }
+
+        .back{
+            height: auto;
+        }
+
+        .footer-darkloop-logo{
+            display: block;
+        }
+
+        .footer-middle-call{
+            border-left: 1px solid;
+            padding-left: 40px;
+        }
+
+        .footer-addres-pic{
+            display: block;
+        }
+
+        .footer-addres{
+            border-left: 1px solid;
+        }
+
+        .resourse{
+            display: block;
+        }
+    }
+    
