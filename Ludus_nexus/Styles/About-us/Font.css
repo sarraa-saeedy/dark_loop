@@ -1,15 +1,11 @@
-@font-face{/*rigester*/
-    font-family: 'Negaar';
-    src: url(/Ludus_nexus/Assets/Font/Negaar/Negaar\ Bold.ttf) 
-    format('truetype'); /*فرمت فشرده شده متن*/
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{/*rigester*/
-    font-family: 'Negaar';
-    src: url(/Ludus_nexus/Assets/Font/Negaar/Negaar\ Regular.ttf) 
-    format('truetype'); /*فرمت فشرده شده متن*/
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+	font-family: 'Yekan';
+	src: url( '/Ludus_nexus/Assets/Font/yekan/Yekan.eot' );
+	src: url( 'Yekan.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( '//Ludus_nexus/Assets/Font/yekan/Yekan.woff2' ) format( 'woff2' ),
+		url( '/Ludus_nexus/Assets/Font/yekan/Yekan.woff' ) format( 'woff' ),
+		url( '//Ludus_nexus/Assets/Font/yekan/Yekan.ttf' ) format( 'truetype' ),
+		url( '//Ludus_nexus/Assets/Font/yekan/Yekan.eot' ) format( 'svg' );
+	font-weight: normal;
+	font-style: normal;
 }
