@@ -48,7 +48,6 @@
     
     nav ul li {
         display: inline;
-        margin-right: 80px;
     }
     
     nav ul li a {
@@ -149,7 +148,7 @@
         
      footer{
         display: flex;
-        font-size: 18px;
+        font-size: 12px;
         justify-content: space-evenly;
         height: 230px;
         direction: rtl;
@@ -168,7 +167,7 @@
         padding: 3px;
     }
     
-    .footer-middle ul{
+    .footer-middle ul, .resourse ul{
         list-style-type: none;
     }
     

@@ -9,10 +9,6 @@
         .back{
             height: 100%;
         }
-    
-        header nav ul li{
-            margin-right: 5px;
-        }
 
         .search-nav input[type=text]{
             width: 75%;
@@ -54,6 +50,10 @@
 
         .resourse{
             display: none;
+        }
+
+        .footer-compony{
+            font-size: 7px;
         }
     }
     
@@ -120,7 +120,7 @@
         }
 
         .footer-addres-pic{
-            display: block;
+            display: none;
         }
 
         .footer-addres{
@@ -129,6 +129,10 @@
 
         .resourse{
             display: block;
+        }
+
+        .footer-compony{
+            font-size: 10px;
         }
     }
     
@@ -140,12 +144,16 @@
         }
     
         footer{
-            font-size: 18px;
+            font-size: 13px;
             margin: 50px;
         }
     
         footer .resourse{
             margin-right: 18px;
+        }
+
+        .footer-compony{
+            font-size: 13px;
         }
     
         header img{
@@ -212,7 +220,7 @@
         footer{
             display: block;
             display: flex;
-            font-size: 18px;
+            font-size: 13px;
         }
 
         .paragraph{
@@ -258,6 +266,10 @@
 
         .resourse{
             display: block;
+        }
+
+        .footer-compony{
+            font-size: 20px;
         }
     }
     

@@ -129,7 +129,7 @@
 
     footer{
         display: flex;
-        font-size: 18px;
+        font-size: 13px;
         justify-content: space-evenly;
         height: 230px;
     }
@@ -147,7 +147,7 @@
         padding: 3px;
     }
 
-    .footer-middle ul{
+    .footer-middle ul, .resourse ul{
         list-style-type: none;
     }
 

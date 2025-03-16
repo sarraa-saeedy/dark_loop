@@ -12,10 +12,6 @@
         .footer-compony{
             display: none;
         }
-    
-        header nav ul li{
-            margin-right: 5px;
-        }
 
         .search-nav input[type=text]{
             width: 70%;
