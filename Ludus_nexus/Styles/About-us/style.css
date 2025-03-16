@@ -1,15 +1,4 @@
 
-@font-face {
-	font-family: 'Yekan';
-	src: url( './Font/Yekan.eot' );
-	src: url( './Font/Yekan.eot?#iefix' ) format( 'embedded-opentype' ),
-		url( './Font/Yekan.woff2' ) format( 'woff2' ),
-		url( './Font/Yekan.woff' ) format( 'woff' ),
-		url( './Font/Yekan.ttf' ) format( 'truetype' ),
-		url( './Font/Yekan.svg#Yekan' ) format( 'svg' );
-	font-weight: normal;
-	font-style: normal;
-}
    body{
         font-family: 'Yekan' !important; /* اعمال در تمامی تگ ها */
         color: white;
@@ -21,6 +10,7 @@
         position: fixed;
         z-index: -1; /*لایه اخر و پایین تر*/
         width: 100%;
+        height: 150%;
     }
 
      /* بخش سرصفحه */
