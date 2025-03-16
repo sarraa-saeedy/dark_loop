@@ -189,7 +189,7 @@
 
         .prodoct-button{
         width: 160px;
-        padding: 10px;
+        padding: 0px;
         font-size: 30px;
         }
     }
@@ -246,7 +246,7 @@
             margin-right: 45%;
             margin-bottom: 60px;
             width: 160px;
-            padding: 10px;
+            padding: 0px;
             font-size: 30px;
         }
 
@@ -292,7 +292,7 @@
 
         .prodoct-button{
             width: 160px;
-            padding: 10px;
+            padding: 0px;
             font-size: 30px;
         }
     }
