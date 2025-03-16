@@ -21,9 +21,13 @@
         width: 100%;
     }
 
+    article img{
+        margin-right: 127px;
+    }
+
     section{
         order: 2;
-        width: 100%;
+        width: 86%;
     }
 
     main{
@@ -90,7 +94,7 @@
     }
 
     section{
-        width: 100%;
+        width: 88%;
         order: 1;
         align-items: center;
     }
@@ -107,7 +111,7 @@
 
     article img{
         width: 300px;
-        margin-right: 70px;
+        margin-right: 0px;
     }
 
     header nav{
