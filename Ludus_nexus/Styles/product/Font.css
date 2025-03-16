@@ -1,0 +1,15 @@
+@font-face{/*rigester*/
+    font-family: 'Negaar';
+    src: url(/Ludus_nexus/Assets/Font/Negaar/Negaar\ Bold.ttf) 
+    format('truetype'); /*فرمت فشرده شده متن*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{/*rigester*/
+    font-family: 'Negaar';
+    src: url(/Ludus_nexus/Assets/Font/Negaar/Negaar\ Regular.ttf) 
+    format('truetype'); /*فرمت فشرده شده متن*/
+    font-weight: normal;
+    font-style: normal;
+}

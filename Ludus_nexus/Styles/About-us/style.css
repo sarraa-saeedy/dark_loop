@@ -1,0 +1,209 @@
+
+@font-face {
+	font-family: 'Yekan';
+	src: url( './Font/Yekan.eot' );
+	src: url( './Font/Yekan.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( './Font/Yekan.woff2' ) format( 'woff2' ),
+		url( './Font/Yekan.woff' ) format( 'woff' ),
+		url( './Font/Yekan.ttf' ) format( 'truetype' ),
+		url( './Font/Yekan.svg#Yekan' ) format( 'svg' );
+	font-weight: normal;
+	font-style: normal;
+}
+   body{
+        font-family: 'Yekan' !important; /* اعمال در تمامی تگ ها */
+        color: white;
+        margin: 0px;
+        user-select: none;
+    }
+
+    .back{
+        position: fixed;
+        z-index: -1; /*لایه اخر و پایین تر*/
+        width: 100%;
+    }
+
+     /* بخش سرصفحه */
+
+    header {
+        direction: rtl;
+        padding: 20px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header img{
+        text-align: left;
+        margin-left: 99px;
+        width: 251px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 80px;
+    }
+    
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: none;
+    }
+    
+    header a {
+        text-decoration: underline;
+        position: relative;
+        font-size: 18px;
+        color: #ffffff; /* رنگ متن لینک */
+    }
+    
+    input[type=text]{
+        background: linear-gradient(to right,#000DFD6B, #7300FF69);
+        border: none;
+        border-radius: 5px;
+        width: 20%;
+        padding: 8px;
+    }
+    
+    header a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px; /* ضخامت خط */
+        bottom: -3px; /* فاصله خط از متن */
+        left: 0;
+        background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
+        visibility: initial;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    header a:hover::after {
+        transform: scaleX(1); /* حذف خط هنگام هاور */
+    }
+    
+    .searchbox img{
+        width: 30px;
+        height: auto;
+        position: absolute;
+    }
+    
+    .searchbox{
+        position: relative; /*وابسته به دیو مادر*/
+    }
+    
+    .searchbox input{
+        padding-right: 30px; /*شروع نوشتن از جلوتر*/
+        color: white;
+        font-size: 15px;
+    }
+    
+    .search-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .search-nav input[type=text]{
+        width: 100%;
+    }
+    
+    /* درباره ما */
+    
+    .paragraph{
+        font-size: 25px;
+        direction: rtl;
+        color: #ffffff;
+    }
+    
+    .paragraph .text1{
+        font-size: 30px;
+        text-align: center;
+        margin-top:100px;
+    }
+    
+    .paragraph .text2{
+        text-align: justify;
+        padding-left: 200px;
+        padding-right: 200px;
+        line-height: 2;
+    }
+    
+    .paragraph .text3{
+        text-align: center;
+        margin-bottom: 300px;
+    }
+    
+     /* بخش فوتر */
+        
+     footer{
+        display: flex;
+        font-size: 18px;
+        justify-content: space-evenly;
+        height: 230px;
+        direction: rtl;
+    }
+    
+    .footer-addres img{
+        width: 50px;
+    }
+    
+    .footer-addres{
+        border-left: 1px solid;
+        padding-left: 25px;
+    }
+    
+    .pic-of-trust{
+        padding: 3px;
+    }
+    
+    .footer-middle ul{
+        list-style-type: none;
+    }
+    
+    li{
+        padding: 7px;
+    }
+    
+    .footer-middle-call ul{
+        list-style-type: none;
+    }
+    
+    .footer-middle-call{
+        padding-left: 40px;
+        border-left: 1px solid;
+        display: inline-block;
+    }
+    
+    .footer-logo img{
+        width: 100px;
+    }
+    
+    .footer-darkloop-logo img{
+        width: 250px;
+    }
+    
+    .footer-compony{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    footer a:hover{
+        color:#905ef4;
+    }  

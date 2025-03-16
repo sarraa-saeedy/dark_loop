@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Styles/Font.css">
     <link rel="stylesheet" href="../Styles/product/style.css">
-    <Script src="../js/script.js"></Script>
-</head>
+    <link rel="stylesheet" href="../Styles/product/Responsive.css">
+  </head>
 <body>
     <!-- عکس بگ گراند -->
     <img src="../Assets/Image/product-back.jpg" alt="backgraound-img" class="back">
@@ -30,87 +31,89 @@
     </div>
     <img src="../Assets/Image/Ludus-nexus logo.png" alt="Ludus-nexus logo">
   </header>
+  <br>
+  <hr>
+  <br><br>
     <!-- بخش اسلایدر -->
-  <div class="slider">
-    <div class="slides">
-        <div class="slide">
-            <img src="../Assets/Image/slider pic.jpg" alt="محصول 1">
-        </div>
-        <div class="slide">
-            <img src="../Assets/Image/slider pic.jpg" alt="محصول 2">
-        </div>
-        <div class="slide">
-            <img src="../Assets/Image/slider pic.jpg" alt="محصول 3">  
-        </div>
-        <div class="slide">
-            <img src="../Assets/Image/slider pic.jpg" alt="محصول 4">  
-        </div>
-    </div>
-        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-        <button class="next" onclick="moveSlide(1)">&#10095;</button>
-  </div>
+     <div class="slider-container">
+      <div id="slider">
+          <div class="slide active">
+            <img src="../Assets/Image/slider1.jpg" alt="slider1">
+          </div>
+          <div class="slide ">
+            <img src="../Assets/Image/slider2.jpg" alt="slider2">
+          </div>
+          <div class="slide ">
+            <img src="../Assets/Image/slider3.jpg" alt="slider3">
+          </div>
+          <div class="slide ">
+            <img src="../Assets/Image/slider4.jpg" alt="slider4">
+          </div>
+
+          <a href="#" class="prev"> &lt; </a>
+          <a href="#" class="next"> &gt; </a>
+      </div>
+     </div>
+    <br><br><br>
      <!-- بخش محصولات فروشگاه -->
     <h3 class="shop">فروشگاه</h3>
     <br>
     <br>
     <!-- محصولات -->
-    <div class="allprodoct">
-      <table class="prodoct">
-          <tr>
-              <td class="td1"> 
-                  <img src="../Assets/Image/muose.jpg" alt="موس">
+     <div class="product-container">
+        <div class="allprodoct">
+          <table class="prodoct">
+            <tr>
+                <td class="td1"> 
+                    <img src="../Assets/Image/muose.jpg" alt="موس">
+                </td>
+                <td class="td1"> 
+                  <img src="../Assets/Image/sistem.jpg" alt="سیستم گیم">
+                </td>
+                <td class="td1"> 
+                  <img src="../Assets/Image/chare.jpg" alt="صندلی">
+                </td>
+                <td class="td1"> 
+                  <img src="../Assets/Image/headset.jpg" alt="هدست">
+                </td>
+            </tr>
+            <tr>
+              <td class="td2"><p>
+              موس گیمینگ لاجیتک 
+              <br>
+              G502 SE 25K
+              <br><br>
+              3940000
+              </p> 
               </td>
-              <td class="td1"> 
-                <img src="../Assets/Image/sistem.jpg" alt="سیستم گیم">
+              <td class="td2"><p>
+              سیستم گیمینگ اورگیم 
+              <br>
+              Oxid 
+              <br><br>
+              44500000
+              </p>
               </td>
-              <td class="td1"> 
-                <img src="../Assets/Image/chare.jpg" alt="صندلی">
+              <td class="td2"><p>
+              صندلی گیمینگ رنزو
+              <br>
+              Royal Zebra Edition 
+              <br><br>
+              20690000
+              </p>
               </td>
-              <td class="td1"> 
-                <img src="../Assets/Image/headset.jpg" alt="هدست">
+              <td class="td2"><p>
+              هدست فانتزی گیمینگ استیل سریز  
+              <br>            
+              Arctis nova 1 XBOX Black
+              <br><br>          
+              6900000
+              </p>
               </td>
-          </tr>
-          <tr>
-            <td class="td2"><pre>
-
- موس گیمینگ لاجیتک 
-
- G502 SE 25K
-
- 3940000
-            </pre> 
-            </td>
-            <td class="td2"><pre>
-
-
-سیستم گیمینگ اورگیم 
-
-Oxid
-
-44500000
-
-            </pre>
-            </td>
-            <td class="td2"><pre>
-
-صندلی گیمینگ رنزو
-
-Royal Zebra Edition 
-
-20690000
-            </pre>
-            </td>
-            <td class="td2"><pre>
-هدست فانتزی گیمینگ استیل سریز  
-              
-Arctis nova 1 XBOX Black
-             
-6900000
-            </pre>
-            </td>
-           </tr>
-      </table>
-      </div>
+             </tr>
+        </table>
+        </div>
+     </div>
       <br>
       <br>
     <!-- دکمه بیشتر -->
@@ -130,7 +133,7 @@ Arctis nova 1 XBOX Black
                 <a href="../Styles/product/video.html"><img src="../Assets/Image/strim1.png" alt="photo strim2" /></a>
               </td>
               <td>
-                <span>شبیه ساز زندگی استریمرو گیمر(پارت23)استریم <br/>رو ترکوندم
+                <span class="strim-span">شبیه ساز زندگی استریمرو گیمر(پارت23)استریم <br/>رو ترکوندم
                   ورکوردحمایت مالی رو زدم...
                 </span>
                 <br/>
@@ -148,7 +151,7 @@ Arctis nova 1 XBOX Black
                 <img src="../Assets/Image/strim2.png" alt="photo strim2" />
               </td>
               <td>
-                <span>گیم نت کامیکس (2) ، فضا رو لاکچری کردم<br/>
+                <span class="strim-span">گیم نت کامیکس (2) ، فضا رو لاکچری کردم<br/>
                   ولی پوووووول ندارم ...
                 </span>
                 <br/>
@@ -166,7 +169,7 @@ Arctis nova 1 XBOX Black
                 <img src="../Assets/Image/strim3.png" alt="photo strim3" />
               </td>
               <td>
-                <span>شبیه ساز زندگی استریمر و گیمر(پارت28) <br/>
+                <span class="strim-span">شبیه ساز زندگی استریمر و گیمر(پارت28) <br/>
                   روم تور گرفتم و خفن ترین دکوراسیون...
                 </span>
                 <br/>
@@ -184,7 +187,7 @@ Arctis nova 1 XBOX Black
                 <img src="../Assets/Image/strim4.jpg" alt="photo strim4" />
               </td>
               <td>
-                <span>
+                <span class="strim-span">
                   عملیات ویژه در ارتش !! استریم تا سحر هستیم !! <br/>
                   دوناتون چالشی !!!
                 </span>
@@ -283,5 +286,7 @@ Arctis nova 1 XBOX Black
       <img src="../Assets/Image/darkloop_logo.png" alt="darkloop_logo" />
     </div>
   </footer>
+
+  <Script src="../Styles/product/script.js"></Script>
 </body>
 </html>

@@ -1,363 +1,363 @@
-/* بخش سرصفحه */
+    
+    body{
+        font-family: 'Negaar' , sans-serif;
+    }
+    /* بخش سرصفحه */
 
-header {
-    direction: rtl;
-    padding: 20px;
-    text-align: right;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header img{
-    text-align: left;
-    margin-left: 99px;
-    width: 251px;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 80px;
-}
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
-nav ul li a:hover {
-    text-decoration: none;
-}
-header a {
-    text-decoration: underline;
-    position: relative;
-    font-size: 18px;
-    color: #ffffff; /* رنگ متن لینک */
-}
-input[type=text]{
-    background: linear-gradient(to right,#000DFD6B, #7300FF69);
-    border: none;
-    border-radius: 5px;
-    width: 20%;
-    padding: 8px;
-}
-header a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px; /* ضخامت خط */
-    bottom: -3px; /* فاصله خط از متن */
-    left: 0;
-    background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
-    visibility: initial;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-}
-header a:hover::after {
-    transform: scaleX(1); /* حذف خط هنگام هاور */
-}
-.searchbox img{
-    width: 30px;
-    height: auto;
-    position: absolute;
-}
+    header {
+        direction: rtl;
+        padding: 20px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.searchbox{
-    position: relative; /*وابسته به دیو مادر*/
-}
+    header img{
+        text-align: left;
+        margin-left: 99px;
+        width: 251px;
+    }
 
-.searchbox input{
-    padding-right: 30px; /*شروع نوشتن از جلوتر*/
-    color: white;
-    font-size: 15px;
-}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-.search-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    nav ul li {
+        display: inline;
+        margin-right: 80px;
+    }
 
-.search-nav input[type=text]{
-    width: 100%;
-}
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
 
-/* بخش اسلایدر */
-.slider {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 30px;
-}
+    nav ul li a:hover {
+        text-decoration: none;
+    }
 
-.slides {
-    display: flex;
-    transition: transform 0.5s ease;
-    border-radius: 30px;
-}
+    header a {
+        text-decoration: underline;
+        position: relative;
+        font-size: 18px;
+        color: #ffffff; /* رنگ متن لینک */
+    }
 
-.slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: center;
-    border-radius: 30px;
-    width: 100%;
-}
+    input[type=text]{
+        background: linear-gradient(to right,#000DFD6B, #7300FF69);
+        border: none;
+        border-radius: 5px;
+        width: 20%;
+        padding: 8px;
+    }
 
-.slide img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    width: 100%;
-}
+    header a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px; /* ضخامت خط */
+        bottom: -3px; /* فاصله خط از متن */
+        left: 0;
+        background: linear-gradient(to right,#3D155F, #800080, #ffffff); /* گرادیان از بنفش به سفید */
+        visibility: initial;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
 
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
+    header a:hover::after {
+        transform: scaleX(1); /* حذف خط هنگام هاور */
+    }
 
-.prev {
-    left: 10px;
-}
+    .searchbox img{
+        width: 30px;
+        height: auto;
+        position: absolute;
+    }
 
-.next {
-    right: 10px;
-}
+    .searchbox{
+        position: relative; /*وابسته به دیو مادر*/
+    }
 
-/* بخش محصولات فروشگاه */
+    .searchbox input{
+        padding-right: 30px; /*شروع نوشتن از جلوتر*/
+        color: white;
+        font-size: 15px;
+    }
 
-.shop{
-    text-align: center;
-    background: linear-gradient(to right,#0569FF,#7631FF,#6105FF);
-    border-radius: 15px;
-    font-size: 30px;
-    color: #ffffff;
-    padding: 7px;
-    margin: 25px;
-    margin-top: 0px;
-}
+    .search-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-/* محصولات */
+    .search-nav input[type=text]{
+        width: 100%;
+    }
 
-.allprodoct td{
-    text-align: center;
-    padding:0px;
-    margin: 60px;  
-}
+    /* بخش اسلایدر */
+    #slider{
+        width: 95%;
+        height: 456px;
+        position: relative;
+        margin: 20px auto;
+        box-shadow: 8px 10px 15px #000;
+    }
+    #slider img {
+        width: 100%;
+        height: 456px;
+        border-radius: 55px;
+    }
+    .slide{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+    .prev , .next{
+        font-size: 40px;
+        text-decoration: none;
+        color: #000;
+        position: absolute;
+        top: 45%;
+        font-weight: 700;
+    }
+    .prev{
+        left: 3%;
+    }
+    .next{
+        right: 3%;
+    }
+    /* بخش محصولات فروشگاه */
 
-.allprodoct table{
-    border-radius: 10px;
-    margin:auto;   
-    width: 80%;      
-}
+    .shop{
+        text-align: center;
+        background: linear-gradient(to right,#0569FF,#7631FF,#6105FF);
+        border-radius: 15px;
+        font-size: 30px;
+        color: #ffffff;
+        padding: 7px;
+        margin: 25px;
+        margin-top: 0px;
+    }
 
-.prodoct td img{
-    width: 100%;
-    height: 300px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
+    /* محصولات */
 
-.allprodoct{
-    background-color:#6A44ADAB;
-    width: 93%;
-    border-radius: 30px;
-    margin: auto;
-    padding: 20px;
-}   
+    .allprodoct td{
+        text-align: center;
+        padding:0px;
+        margin: 60px;  
+        width: 100px;
+    }
 
-.allprodoct .td1{
-    background-color:#6A44ADAB;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
+    .allprodoct table{
+        border-radius: 10px;
+        margin:auto;   
+        width: 80%;      
+    }
 
-.allprodoct .td2{
-    background-color: #843DFF9E;
-    border-radius: 5px;
-}
-/* دکمه بیشتر */
-.prodoct-button{
-    margin-right: 45%;
-    margin-top: 90px;
-    margin-bottom: 60px;
-    width: 160px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 6px 5px #340d76e5; /*سایه*/
-    font-size: 25px;
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 30px;
-    background-image: linear-gradient(#1100FF, #9000FF);
-    background-color: #712BE9E5;
-   }
+    .prodoct td img{
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 
-/* بخش ویدیو استریم  */
+    .allprodoct{
+        background-color:#6A44ADAB;
+        width: 93%;
+        border-radius: 30px;
+        margin: auto;
+        padding: 20px;
+    }   
 
-body{
-    direction: rtl;
-    margin: 0px;
-    color: white;
-    user-select: none;
-}
+    .allprodoct .td1{
+        background-color:#6A44ADAB;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 
-.back{
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    margin: 0px;
-}
+    .allprodoct .td2{
+        background-color: #843DFF9E;
+        border-radius: 5px;
+    }
+    /* دکمه بیشتر */
+    .prodoct-button{
+        margin-right: 45%;
+        margin-top: 90px;
+        margin-bottom: 60px;
+        width: 160px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 6px 5px #340d76e5; /*سایه*/
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-size: 30px;
+        background-image: linear-gradient(#1100FF, #9000FF);
+        background-color: #712BE9E5;
+       }
 
-.strim{
-    align-items: center;
-    justify-content: center;
-}
+    /* بخش ویدیو استریم  */
 
-.strim h3{
-    background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
-    padding: 7px;
-    margin: 25px;
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 0px;
-    font-size: 30px;
-}
-
-/* استایل استریم ها */
-
-.strim-photo2{
-    margin: 50px;
-    background-color: #1500533D;
-    font-size: 25px;
-    text-align: right;
-}
-
-.strim-photo2 img{
-    width: 400px;
-    margin: 20px;
-    margin-right: 100px;
-    cursor: pointer;
-}
-
-.strim-button{
-    margin-right: 45%;
-    margin-top: 90px;
-    width: 160px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 6px 5px #340d76e5;
-    font-size: 25px;
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 30px;
-    background-image: linear-gradient(#1100FF, #9000FF);
-    background-color: #712BE9E5; /* برای مرور گر هایی که گردینت اعمال نمی شود*/
-}
-
-/* بخش سوالهای متداول  */
-
-.question-part h3{
-    background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
-    padding: 7px;
-    margin: 25px;
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 30px;
-}
-
-.question{
-    margin-right: 15%;
-}
-
-.question span{
-    border-bottom: 3px solid;
-    display: inline-block; /*چون بشه خط و تنظیم کرد*/
-    width: 80%;
-    border-image: linear-gradient(to right, #0569FF, #7631FF , #6105FF) 1;
-    font-size: 25px;
-    padding: 10px;
-}
-
-.question-icon{
-    cursor: pointer;
-    display: inline-block;
-}
-
-/* بخش فوتر */
-
-footer{
-    display: flex;
-    font-size: 18px;
-    justify-content: space-evenly;
-    height: 230px;
-}
-
-.footer-addres img{
-    width: 50px;
-}
-
-.footer-addres{
-    border-left: 1px solid;
-    padding-left: 25px;
-}
-
-.pic-of-trust{
-    padding: 3px;
-}
-
-.footer-middle ul{
-    list-style-type: none;
-}
-
-li{
-    padding: 7px;
-}
-
-.footer-middle-call ul{
-    list-style-type: none;
-}
-
-.footer-middle-call{
-    padding-left: 40px;
-    border-left: 1px solid;
-    display: inline-block;
-}
-
-.footer-logo img{
-    width: 100px;
-}
-
-.footer-darkloop-logo img{
-    width: 250px;
-}
-
-.footer-compony{
-    font-size: 20px;
-    text-align: center;
-}
-
-footer a{
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover{
-    color:#905ef4;
-}
+    body{
+        direction: rtl;
+        margin: 0px;
+        color: white;
+        user-select: none;
+    }
+    
+    .back{
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .strim{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .strim h3{
+        background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
+        padding: 7px;
+        margin: 25px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    
+    /* استایل استریم ها */
+    
+    .strim-photo2{
+        margin: 50px;
+        background-color: #1500533D;
+        font-size: 25px;
+        text-align: right;
+    }
+    
+    .strim-photo2 img{
+        width: 400px;
+        margin: 20px;
+        margin-right: 100px;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+    
+    .strim-button{
+        margin-right: 45%;
+        margin-top: 90px;
+        width: 160px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 6px 5px #340d76e5;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-size: 30px;
+        background-image: linear-gradient(#1100FF, #9000FF);
+        background-color: #712BE9E5; /* برای مرور گر هایی که گردینت اعمال نمی شود*/
+    }
+    
+    /* بخش سوالهای متداول  */
+    
+    .question-part h3{
+        background: linear-gradient(to right ,#0569FF,#7631FF,#6105FF);
+        padding: 7px;
+        margin: 25px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    .question{
+        margin-right: 15%;
+    }
+    
+    .question span{
+        border-bottom: 3px solid;
+        display: inline-block; /*چون بشه خط و تنظیم کرد*/
+        width: 80%;
+        border-image: linear-gradient(to right, #0569FF, #7631FF , #6105FF) 1;
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    .question-icon{
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    /* بخش فوتر */
+    
+    footer{
+        display: flex;
+        font-size: 18px;
+        justify-content: space-evenly;
+        height: 230px;
+    }
+    
+    .footer-addres img{
+        width: 50px;
+    }
+    
+    .footer-addres{
+        border-left: 1px solid;
+        padding-left: 25px;
+    }
+    
+    .pic-of-trust{
+        padding: 3px;
+    }
+    
+    .footer-middle ul{
+        list-style-type: none;
+    }
+    
+    li{
+        padding: 7px;
+    }
+    
+    .footer-middle-call ul{
+        list-style-type: none;
+    }
+    
+    .footer-middle-call{
+        padding-left: 40px;
+        border-left: 1px solid;
+        display: inline-block;
+    }
+    
+    .footer-logo img{
+        width: 100px;
+    }
+    
+    .footer-darkloop-logo img{
+        width: 250px;
+    }
+    
+    .footer-compony{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    footer a:hover{
+        color:#905ef4;
+    }

@@ -16,6 +16,10 @@
     header nav ul li{
         margin-right: 5px;
     }
+
+    .container-title{
+        font-size: 20px;
+    }
 }
 
     /* Medium */
@@ -54,6 +58,10 @@
         margin: 35px;
     }
 
+    .container-title{
+        font-size: 15px;
+    }
+
 }
 
     /*Large */
@@ -75,6 +83,10 @@
         display: block;
     }
 
+    .container-title{
+        font-size: 23px;
+    }
+
 }
 
     /* Extra Large */
@@ -93,5 +105,7 @@
         display: flex;
     }
 
-    
+    .container-title{
+        font-size: 23px;
+    }
 }
