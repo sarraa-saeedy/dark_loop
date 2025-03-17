@@ -1,7 +1,4 @@
-    
-    body{
-        font-family: 'Negaar' , sans-serif;
-    }
+
     /* بخش سرصفحه */
 
     header {
@@ -27,7 +24,6 @@
 
     nav ul li {
         display: inline;
-        margin-right: 80px;
     }
 
     nav ul li a {
@@ -304,7 +300,7 @@
     
     footer{
         display: flex;
-        font-size: 18px;
+        font-size: 12px;
         justify-content: space-evenly;
         height: 230px;
     }
@@ -323,6 +319,10 @@
     }
     
     .footer-middle ul{
+        list-style-type: none;
+    }
+
+    .resourse ul{
         list-style-type: none;
     }
     

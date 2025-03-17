@@ -7,11 +7,7 @@
         }
 
         .back{
-            height: 100%;
-        }
-    
-        header nav ul li{
-            margin-right: 5px;
+            height: 150%;
         }
 
         .search-nav input[type=text]{
@@ -54,6 +50,10 @@
 
         .resourse{
             display: none;
+        }
+
+        .footer-compony{
+            font-size: 7px;
         }
     }
     
@@ -107,7 +107,7 @@
         }
 
         .back{
-            height: auto;
+            height: 150%;
         }
 
         .footer-darkloop-logo{
@@ -120,7 +120,7 @@
         }
 
         .footer-addres-pic{
-            display: block;
+            display: none;
         }
 
         .footer-addres{
@@ -129,6 +129,10 @@
 
         .resourse{
             display: block;
+        }
+
+        .footer-compony{
+            font-size: 10px;
         }
     }
     
@@ -140,12 +144,16 @@
         }
     
         footer{
-            font-size: 18px;
+            font-size: 13px;
             margin: 50px;
         }
     
         footer .resourse{
             margin-right: 18px;
+        }
+
+        .footer-compony{
+            font-size: 13px;
         }
     
         header img{
@@ -173,7 +181,7 @@
         }
 
         .back{
-            height: auto;
+            height: 150%;
         }
 
         .footer-darkloop-logo{
@@ -212,7 +220,7 @@
         footer{
             display: block;
             display: flex;
-            font-size: 18px;
+            font-size: 13px;
         }
 
         .paragraph{
@@ -236,7 +244,7 @@
         }
 
         .back{
-            height: auto;
+            height: 150%;
         }
 
         .footer-darkloop-logo{
@@ -258,6 +266,10 @@
 
         .resourse{
             display: block;
+        }
+
+        .footer-compony{
+            font-size: 20px;
         }
     }
     
