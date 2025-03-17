@@ -34,5 +34,4 @@ as well as create an online platform for the commuity of gamers and streamers,an
 </dl>
 <p>website Addres:<a href="ludus-nexus.liara.run">ludus-nexus.liara.run</a></p>
 <p>Contact Us:<a href="#">#</a></p>
-Document:
-<p>documentation files:<a href=""></a></p>
+
